@@ -1,0 +1,12 @@
+{
+  "name": "wordpress_theme_template",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch assets/sass/style.scss:style.css"
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "ISC",
+  "description": "A WordPress theme with SCSS support"
+}
