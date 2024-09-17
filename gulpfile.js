@@ -14,7 +14,7 @@ gulp.task('styles', function() {
 
 // 監視タスク
 gulp.task('watch', function() {
-    gulp.watch('src/scss/**/*.scss', gulp.series('styles'));  // SCSSファイルが変更されたらstylesタスクを実行
+    gulp.watch('style.scss', gulp.series('styles'));  // SCSSファイルが変更されたらstylesタスクを実行
 });
 
 // デフォルトタスク
